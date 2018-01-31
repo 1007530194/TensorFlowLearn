@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63172752-55e6-4af4-8486-281ab24172a7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorials" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
