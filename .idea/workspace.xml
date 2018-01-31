@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63172752-55e6-4af4-8486-281ab24172a7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorials" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitmodules" afterPath="$PROJECT_DIR$/.gitmodules" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TensorFlowLearn.iml" afterPath="$PROJECT_DIR$/.idea/TensorFlowLearn.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,19 +15,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TensorFlowLearn$Match_Phrase.coverage" NAME="Match Phrase Coverage Results" MODIFIED="1517381484988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm" />
+    <SUITE FILE_PATH="coverage/TensorFlowLearn$Find_Path.coverage" NAME="Find Path Coverage Results" MODIFIED="1517381345269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm" />
+    <SUITE FILE_PATH="coverage/TensorFlowLearn$Travel_Sales_Person.coverage" NAME="Travel Sales Person Coverage Results" MODIFIED="1517381718515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitmodules">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +31,7 @@
       <list>
         <option value="$PROJECT_DIR$/tutorials/basic/25_import.py" />
         <option value="$PROJECT_DIR$/.gitmodules" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -71,6 +70,43 @@
               <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="MorvanZhou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="MorvanZhou" type="462c0819:PsiDirectoryNode" />
+              <item name="Evolutionary-Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="MorvanZhou" type="462c0819:PsiDirectoryNode" />
+              <item name="Evolutionary-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-contents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="MorvanZhou" type="462c0819:PsiDirectoryNode" />
+              <item name="Evolutionary-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-contents" type="462c0819:PsiDirectoryNode" />
+              <item name="Genetic Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="PersonLearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="PersonLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -81,6 +117,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PersonLearn" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -93,6 +135,74 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.Travel Sales Person">
+    <configuration name="Find Path" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlowLearn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm/Find Path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Match Phrase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlowLearn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm/Match Phrase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Travel Sales Person" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlowLearn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm/Travel Sales Person.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.Find Path" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Match Phrase" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Travel Sales Person" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.Travel Sales Person" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Match Phrase" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Find Path" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -110,13 +220,13 @@
   <component name="ToolWindowManager">
     <frame x="13" y="23" width="1263" height="723" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2907453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21337579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -136,6 +246,13 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/MorvanZhou/Tensorflow-Tutorial" />
+      <path value="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm" />
+      <path value="$PROJECT_DIR$/MorvanZhou/tutorials" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -160,8 +277,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitmodules">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Tensorflow-Tutorial/tutorial-contents/201_session.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/demo/es.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm/Genetic Algorithm Basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm/Match Phrase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="40" lean-forward="true" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm/Find Path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm/Microbial Genetic Algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm/Travel Sales Person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="98" column="10" lean-forward="true" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
           <folding />
         </state>
       </provider>

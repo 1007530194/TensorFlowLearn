@@ -4,3 +4,6 @@
 [submodule "MorvanZhou/tutorials"]
 	path = MorvanZhou/tutorials
 	url = https://github.com/MorvanZhou/tutorials.git
+[submodule "MorvanZhou/Evolutionary-Algorithm"]
+	path = MorvanZhou/Evolutionary-Algorithm
+	url = https://github.com/MorvanZhou/Evolutionary-Algorithm.git
