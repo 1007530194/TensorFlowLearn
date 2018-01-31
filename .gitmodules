@@ -1,5 +1,5 @@
-[submodule "tutorials"]
-	path = MorvanZhou/tutorials
+[submodule "Test/tutorials"]
+	path = Test/tutorials
 	url = https://github.com/1007530194/tutorials.git
 [submodule "MorvanZhou/Tensorflow-Tutorial"]
 	path = MorvanZhou/Tensorflow-Tutorial
