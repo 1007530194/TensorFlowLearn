@@ -16,3 +16,10 @@
 
 #拉取完代码初始化子模块  
     git submodule init
+
+
+#查看可视化图
+##代码参考
+    /MorvanZhou/tutorials/tensorflowTUT/tf15_tensorboard/full_code.py
+##查看命令(logs生成的日志文件夹)
+    tensorboard --logdir logs/
