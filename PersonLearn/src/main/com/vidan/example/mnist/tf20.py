@@ -65,7 +65,7 @@ def RNN(X, weights, biases):
     ##########################################
 
     # basic LSTM Cell.
-    if int((tf.__version__).split('.')[1]) < 12 and int((tf.__version__).split('.')[0]) < 1:
+    if int(tf.__version__.split('.')[1]) < 12 and int(tf.__version__.split('.')[0]) < 1:
         cell = tf.nn.rnn_cell.BasicLSTMCell(n_hidden_units, forget_bias=1.0, state_is_tuple=True)
     else:
         cell = tf.contrib.rnn.BasicLSTMCell(n_hidden_units)

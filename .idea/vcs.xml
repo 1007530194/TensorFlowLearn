@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MorvanZhou/Tensorflow-Tutorial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MorvanZhou/tutorials" vcs="Git" />
   </component>
 </project>

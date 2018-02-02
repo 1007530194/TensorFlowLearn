@@ -7,3 +7,6 @@
 [submodule "MorvanZhou/Evolutionary-Algorithm"]
 	path = MorvanZhou/Evolutionary-Algorithm
 	url = https://github.com/MorvanZhou/Evolutionary-Algorithm.git
+[submodule "MorvanZhou/Reinforcement-learning-with-tensorflow"]
+	path = MorvanZhou/Reinforcement-learning-with-tensorflow
+	url = https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow.git

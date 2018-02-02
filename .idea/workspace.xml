@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63172752-55e6-4af4-8486-281ab24172a7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitmodules" afterPath="$PROJECT_DIR$/.gitmodules" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PersonLearn/src/main/com/vidan/example/mnist/tf20.py" afterPath="$PROJECT_DIR$/PersonLearn/src/main/com/vidan/example/mnist/tf20.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,31 +19,27 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TensorFlowLearn$full_code.coverage" NAME="full_code Coverage Results" MODIFIED="1517451179362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf16_classification" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$Match_Phrase.coverage" NAME="Match Phrase Coverage Results" MODIFIED="1517381484988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm" />
+    <SUITE FILE_PATH="coverage/TensorFlowLearn$tf23_BN.coverage" NAME="tf23_BN Coverage Results" MODIFIED="1517563379576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf23_BN" />
+    <SUITE FILE_PATH="coverage/TensorFlowLearn$collision.coverage" NAME="collision Coverage Results" MODIFIED="1517563844784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car" />
+    <SUITE FILE_PATH="coverage/TensorFlowLearn$DDPG.coverage" NAME="DDPG Coverage Results" MODIFIED="1517563877291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$Find_Path.coverage" NAME="Find Path Coverage Results" MODIFIED="1517381345269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$tensorflow6_session.coverage" NAME="tensorflow6_session Coverage Results" MODIFIED="1517382831408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$tensorflow8_feeds.coverage" NAME="tensorflow8_feeds Coverage Results" MODIFIED="1517383972400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$full_code__3_.coverage" NAME="full_code (3) Coverage Results" MODIFIED="1517554703947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf18_CNN2" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$full_code__4_.coverage" NAME="full_code (4) Coverage Results" MODIFIED="1517555709493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf20_RNN2" />
+    <SUITE FILE_PATH="coverage/TensorFlowLearn$A3C.coverage" NAME="A3C Coverage Results" MODIFIED="1517564581486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$full_code__2_.coverage" NAME="full_code (2) Coverage Results" MODIFIED="1517451399475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf17_dropout" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$tensorflow7_variable.coverage" NAME="tensorflow7_variable Coverage Results" MODIFIED="1517383707223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT" />
+    <SUITE FILE_PATH="coverage/TensorFlowLearn$run_LunarLander.coverage" NAME="run_LunarLander Coverage Results" MODIFIED="1517564616130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_LunarLander" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$Travel_Sales_Person.coverage" NAME="Travel Sales Person Coverage Results" MODIFIED="1517381718515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm/tutorial-contents/Genetic Algorithm" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$full_code__1_.coverage" NAME="full_code (1) Coverage Results" MODIFIED="1517450135485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf15_tensorboard" />
+    <SUITE FILE_PATH="coverage/TensorFlowLearn$A3C_rnn.coverage" NAME="A3C_rnn Coverage Results" MODIFIED="1517564566224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$tensorflow12_plut_result.coverage" NAME="tensorflow12_plut_result Coverage Results" MODIFIED="1517402201736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT" />
     <SUITE FILE_PATH="coverage/TensorFlowLearn$tf20.coverage" NAME="tf20 Coverage Results" MODIFIED="1517556201109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonLearn/src/main/com/vidan/example/mnist" />
+    <SUITE FILE_PATH="coverage/TensorFlowLearn$DDPG__1_.coverage" NAME="DDPG (1) Coverage Results" MODIFIED="1517564574694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="tf20.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PersonLearn/src/main/com/vidan/example/mnist/tf20.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1293">
-              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,7 +57,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,6 +68,17 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/PersonLearn/src/main/com/vidan/example/mnist/full_code.py" />
         <option value="$PROJECT_DIR$/PersonLearn/src/main/com/vidan/example/mnist/tf20.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car/collision.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car/DDPG.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car/car_env.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Robot_arm/A3C.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Robot_arm/arm_env.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Robot_arm/DDPG.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker/A3C.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker/A3C_rnn.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker/DDPG.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_LunarLander/A3C.py" />
+        <option value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_LunarLander/DuelingDQNPrioritizedReplay.py" />
       </list>
     </option>
   </component>
@@ -133,69 +143,13 @@
             <path>
               <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
               <item name="MorvanZhou" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="PersonLearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="PersonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="PersonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="PersonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="PersonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vidan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="PersonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vidan" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TensorFlowLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TensorFlowLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="PersonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vidan" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mnist" type="462c0819:PsiDirectoryNode" />
+              <item name="MorvanZhou" type="462c0819:PsiDirectoryNode" />
+              <item name="Reinforcement-learning-with-tensorflow" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,7 +161,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -233,111 +187,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf20">
-    <configuration name="full_code (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.run_LunarLander">
+    <configuration name="A3C" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf17_dropout" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TensorFlowLearn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf17_dropout/full_code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker/A3C.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="full_code (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="A3C_rnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf18_CNN2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TensorFlowLearn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf18_CNN2/full_code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker/A3C_rnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="full_code (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DDPG (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf20_RNN2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TensorFlowLearn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf20_RNN2/full_code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker/DDPG.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="full_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DDPG" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf16_classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TensorFlowLearn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf16_classification/full_code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car/DDPG.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf20" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run_LunarLander" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonLearn/src/main/com/vidan/example/mnist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_LunarLander" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TensorFlowLearn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonLearn/src/main/com/vidan/example/mnist/tf20.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_LunarLander/run_LunarLander.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.full_code" />
-      <item index="1" class="java.lang.String" itemvalue="Python.full_code (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.full_code (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.full_code (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf20" />
+      <item index="0" class="java.lang.String" itemvalue="Python.DDPG" />
+      <item index="1" class="java.lang.String" itemvalue="Python.A3C_rnn" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DDPG (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.A3C" />
+      <item index="4" class="java.lang.String" itemvalue="Python.run_LunarLander" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf20" />
-        <item index="1" class="java.lang.String" itemvalue="Python.full_code (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.full_code (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.full_code (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.full_code" />
+        <item index="0" class="java.lang.String" itemvalue="Python.run_LunarLander" />
+        <item index="1" class="java.lang.String" itemvalue="Python.A3C" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DDPG (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.A3C_rnn" />
+        <item index="4" class="java.lang.String" itemvalue="Python.DDPG" />
       </list>
     </recent_temporary>
   </component>
@@ -358,12 +312,13 @@
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21337579" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21337579" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28109854" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28109854" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -374,6 +329,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="100" y="131" width="1080" height="507" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -384,16 +340,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/MorvanZhou/Tensorflow-Tutorial" />
-      <path value="$PROJECT_DIR$/MorvanZhou/Evolutionary-Algorithm" />
-      <path value="$PROJECT_DIR$/MorvanZhou/tutorials" />
-    </ignored-roots>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car/DDPG.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -649,10 +605,145 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf22_scope/tf22_RNN_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1279">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/tutorials/tensorflowTUT/tf23_BN/tf23_BN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PersonLearn/src/main/com/vidan/example/mnist/tf20.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1293">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="-379">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car/collision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car/car_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="54" lean-forward="false" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/2D_car/DDPG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Robot_arm/A3C.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Robot_arm/DPPO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Robot_arm/DDPG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Robot_arm/arm_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-543">
+          <caret line="159" column="3" lean-forward="false" selection-start-line="159" selection-start-column="3" selection-end-line="159" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker/A3C.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker/DDPG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_BipedalWalker/A3C_rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_LunarLander/run_LunarLander.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#85#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_LunarLander/DuelingDQNPrioritizedReplay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow/experiments/Solve_LunarLander/A3C.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
