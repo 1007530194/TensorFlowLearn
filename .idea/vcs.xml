@@ -6,5 +6,7 @@
     <mapping directory="$PROJECT_DIR$/MorvanZhou/Reinforcement-learning-with-tensorflow" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MorvanZhou/Tensorflow-Tutorial" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MorvanZhou/tutorials" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/caicloud/tensorflow-tutorial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/niult/LearnDL" vcs="Git" />
   </component>
 </project>

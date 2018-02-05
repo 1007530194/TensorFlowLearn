@@ -13,3 +13,9 @@
 [submodule "caicloud/tensorflow-tutorial"]
 	path = caicloud/tensorflow-tutorial
 	url = https://github.com/caicloud/tensorflow-tutorial.git
+[submodule "niult/LearnDL"]
+	path = niult/LearnDL
+	url = https://github.com/1007530194/LearnDL.git
+[submodule "hzy46/TensorFlow-Time-Series-Examples"]
+	path = hzy46/TensorFlow-Time-Series-Examples
+	url = https://github.com/hzy46/TensorFlow-Time-Series-Examples.git
