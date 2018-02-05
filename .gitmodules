@@ -19,3 +19,6 @@
 [submodule "hzy46/TensorFlow-Time-Series-Examples"]
 	path = hzy46/TensorFlow-Time-Series-Examples
 	url = https://github.com/hzy46/TensorFlow-Time-Series-Examples.git
+[submodule "niult/LearnCompetition"]
+	path = niult/LearnCompetition
+	url = https://github.com/1007530194/LearnCompetition.git
