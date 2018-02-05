@@ -10,3 +10,6 @@
 [submodule "MorvanZhou/Reinforcement-learning-with-tensorflow"]
 	path = MorvanZhou/Reinforcement-learning-with-tensorflow
 	url = https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow.git
+[submodule "caicloud/tensorflow-tutorial"]
+	path = caicloud/tensorflow-tutorial
+	url = https://github.com/caicloud/tensorflow-tutorial.git

@@ -16,67 +16,74 @@ tensorflow: 1.1.0
 matplotlib
 numpy
 """
-import tensorflow as tf
-from tensorflow.examples.tutorials.mnist import input_data
 import numpy as np
+import tensorflow as tf
+from tensorflow.contrib.learn.python.learn.estimators.estimator import SKCompat
+from tensorflow.python.ops import array_ops as array_ops_
 import matplotlib.pyplot as plt
+learn = tf.contrib.learn
 
-tf.set_random_seed(1)
-np.random.seed(1)
 
-# Hyper Parameters
-BATCH_SIZE = 64
-TIME_STEP = 28          # rnn time step / image height
-INPUT_SIZE = 28         # rnn input size / image width
-LR = 0.01               # learning rate
+HIDDEN_SIZE = 30
+NUM_LAYERS = 2
 
-# data
-mnist = input_data.read_data_sets('./mnist', one_hot=True)              # they has been normalized to range (0,1)
-test_x = mnist.test.images[:2000]
-test_y = mnist.test.labels[:2000]
+TIMESTEPS = 10
+TRAINING_STEPS = 3000
+BATCH_SIZE = 32
 
-# plot one example
-print(mnist.train.images.shape)     # (55000, 28 * 28)
-print(mnist.train.labels.shape)   # (55000, 10)
-plt.imshow(mnist.train.images[0].reshape((28, 28)), cmap='gray')
-plt.title('%i' % np.argmax(mnist.train.labels[0]))
-plt.show()
+TRAINING_EXAMPLES = 10000
+TESTING_EXAMPLES = 1000
+SAMPLE_GAP = 0.01
 
-# tensorflow placeholders
-tf_x = tf.placeholder(tf.float32, [None, TIME_STEP * INPUT_SIZE])       # shape(batch, 784)
-image = tf.reshape(tf_x, [-1, TIME_STEP, INPUT_SIZE])                   # (batch, height, width, channel)
-tf_y = tf.placeholder(tf.int32, [None, 10])                             # input y
+def generate_data(seq):
+    X = []
+    y = []
 
-# RNN
-rnn_cell = tf.contrib.rnn.BasicLSTMCell(num_units=64)
-outputs, (h_c, h_n) = tf.nn.dynamic_rnn(
-    rnn_cell,                   # cell you have chosen
-    image,                      # input
-    initial_state=None,         # the initial hidden state
-    dtype=tf.float32,           # must given if set initial_state = None
-    time_major=False,           # False: (batch, time step, input); True: (time step, batch, input)
-)
-output = tf.layers.dense(outputs[:, -1, :], 10)              # output based on the last output step
+    for i in range(len(seq) - TIMESTEPS - 1):
+        X.append([seq[i: i + TIMESTEPS]])
+        y.append([seq[i + TIMESTEPS]])
+    return np.array(X, dtype=np.float32), np.array(y, dtype=np.float32)
 
-loss = tf.losses.softmax_cross_entropy(onehot_labels=tf_y, logits=output)           # compute cost
-train_op = tf.train.AdamOptimizer(LR).minimize(loss)
 
-accuracy = tf.metrics.accuracy(          # return (acc, update_op), and create 2 local variables
-    labels=tf.argmax(tf_y, axis=1), predictions=tf.argmax(output, axis=1),)[1]
+def lstm_model(X, y):
+    lstm_cell = tf.contrib.rnn.BasicLSTMCell(HIDDEN_SIZE, state_is_tuple=True)
+    cell = tf.contrib.rnn.MultiRNNCell([lstm_cell] * NUM_LAYERS)
 
-sess = tf.Session()
-init_op = tf.group(tf.global_variables_initializer(), tf.local_variables_initializer()) # the local var is for accuracy_op
-sess.run(init_op)     # initialize var in graph
+    output, _ = tf.nn.dynamic_rnn(cell, X, dtype=tf.float32)
+    output = tf.reshape(output, [-1, HIDDEN_SIZE])
 
-for step in range(1200):    # training
-    b_x, b_y = mnist.train.next_batch(BATCH_SIZE)
-    _, loss_ = sess.run([train_op, loss], {tf_x: b_x, tf_y: b_y})
-    if step % 50 == 0:      # testing
-        accuracy_ = sess.run(accuracy, {tf_x: test_x, tf_y: test_y})
-        print('train loss: %.4f' % loss_, '| test accuracy: %.2f' % accuracy_)
+    # 通过无激活函数的全联接层计算线性回归，并将数据压缩成一维数组的结构。
+    predictions = tf.contrib.layers.fully_connected(output, 1, None)
 
-# print 10 predictions from test data
-test_output = sess.run(output, {tf_x: test_x[:10]})
-pred_y = np.argmax(test_output, 1)
-print(pred_y, 'prediction number')
-print(np.argmax(test_y[:10], 1), 'real number')
+    # 将predictions和labels调整统一的shape
+    labels = tf.reshape(y, [-1])
+    predictions = tf.reshape(predictions, [-1])
+
+    loss = tf.losses.mean_squared_error(predictions, labels)
+
+    train_op = tf.contrib.layers.optimize_loss(
+        loss, tf.contrib.framework.get_global_step(),
+        optimizer="Adagrad", learning_rate=0.1)
+
+    return predictions, loss, train_op
+
+# 封装之前定义的lstm。
+regressor = SKCompat(learn.Estimator(model_fn=lstm_model,model_dir="Models/model_2"))
+
+# 生成数据。
+test_start = TRAINING_EXAMPLES * SAMPLE_GAP
+test_end = (TRAINING_EXAMPLES + TESTING_EXAMPLES) * SAMPLE_GAP
+train_X, train_y = generate_data(np.sin(np.linspace(
+    0, test_start, TRAINING_EXAMPLES, dtype=np.float32)))
+test_X, test_y = generate_data(np.sin(np.linspace(
+    test_start, test_end, TESTING_EXAMPLES, dtype=np.float32)))
+
+# 拟合数据。
+regressor.fit(train_X, train_y, batch_size=BATCH_SIZE, steps=TRAINING_STEPS)
+
+# 计算预测值。
+predicted = [[pred] for pred in regressor.predict(test_X)]
+
+# 计算MSE。
+rmse = np.sqrt(((predicted - test_y) ** 2).mean(axis=0))
+print ("Mean Square Error is: %f" % rmse[0])
