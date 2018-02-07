@@ -22,6 +22,9 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="tensorflow.__version__" />
+          <option value="type.loc" />
+          <option value="type.iloc" />
+          <option value="type.apply" />
         </list>
       </option>
     </inspection_tool>
